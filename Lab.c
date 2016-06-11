@@ -14,5 +14,8 @@ int main()
 	printf("C=");
 	scanf("%f", &c);
 	
+	D=b*b-4*a*c;
+	printf("D=%.3f \n", D);
+	
 	return 0;
 }
