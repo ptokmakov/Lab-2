@@ -29,6 +29,8 @@ int main()
 		x=(-b)/(2*a);
 		printf("x=%.3f", x);
 	}
+	else if(D<0)	
+	printf("NO SOLUTIONS");
 	
 	return 0;
 }
