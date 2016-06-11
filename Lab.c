@@ -24,6 +24,11 @@ int main()
 		printf("x1=%.3f \n", x1);
 		printf("x2=%.3f \n", x2);
 	}
+	else if(D=0)
+	{
+		x=(-b)/(2*a);
+		printf("x=%.3f", x);
+	}
 	
 	return 0;
 }
