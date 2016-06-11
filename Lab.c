@@ -17,5 +17,13 @@ int main()
 	D=b*b-4*a*c;
 	printf("D=%.3f \n", D);
 	
+	if(D>0)
+	{
+		x1=(-b+sqrt(D))/(2*a);
+		x2=(-b-sqrt(D))/(2*a);
+		printf("x1=%.3f \n", x1);
+		printf("x2=%.3f \n", x2);
+	}
+	
 	return 0;
 }
